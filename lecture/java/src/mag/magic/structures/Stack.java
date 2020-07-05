@@ -3,7 +3,7 @@ package mag.magic.structures;
 import java.util.ArrayList;
 
 public class Stack<T> {
-    private ArrayList<T> stack = new ArrayList();
+    private ArrayList<T> stack = new ArrayList<T>();
 
     public void push(T object){
         stack.add(object);

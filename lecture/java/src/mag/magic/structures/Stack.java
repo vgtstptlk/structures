@@ -10,8 +10,8 @@ public class Stack<T> {
     }
 
     public T pop(){
-        T object = stack.get(stack.size()-1);
-        stack.remove(object);
+
+        T object = stack.remove(stack.size()-1);
         return object;
     }
 
